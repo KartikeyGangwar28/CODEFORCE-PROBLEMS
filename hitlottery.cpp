@@ -2,8 +2,8 @@
 using namespace std;
 int main(){
     int n;
-    cin>>n; //question was of DP so this can be optimised
-    int ans=0;
+    cin>>n; 
+    int ans=0; //we can also do ans+=n/100 and ans=n%100; same for all others;
         while(n>=100){
             n=n-100;
             ans+=1;

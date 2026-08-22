@@ -2,7 +2,7 @@
 using namespace std;
 void printeven(int n){
 while(n--){
-    
+    //not solved
 }
 }
 void printOdd(int n){
